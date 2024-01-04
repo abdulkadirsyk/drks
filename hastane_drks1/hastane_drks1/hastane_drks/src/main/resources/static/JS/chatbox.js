@@ -5,7 +5,7 @@ const chatInput = document.querySelector(".chat-input textarea");
 const sendChatBtn = document.querySelector(".chat-input span");
 
 let userMessage = null; // Kullanıcının mesajını saklamak için değişken
-const API_KEY = "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"; // API anahtarını buraya yapıştırın
+const API_KEY = "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"; // API anahtarını buraya yapıştırın
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
